@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD93B2212497F58700245F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD93B2202497F58700245F35 /* AppDelegate.swift */; };
+		AD93B2232497F58700245F35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD93B2222497F58700245F35 /* SceneDelegate.swift */; };
+		AD93B2252497F58700245F35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD93B2242497F58700245F35 /* ContentView.swift */; };
+		AD93B2272497F58E00245F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD93B2262497F58E00245F35 /* Assets.xcassets */; };
+		AD93B22A2497F58E00245F35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD93B2292497F58E00245F35 /* Preview Assets.xcassets */; };
+		AD93B22D2497F58E00245F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD93B22B2497F58E00245F35 /* LaunchScreen.storyboard */; };
+		AD93B2382497F58E00245F35 /* Insta_RedesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD93B2372497F58E00245F35 /* Insta_RedesignTests.swift */; };
+		AD93B2432497F58E00245F35 /* Insta_RedesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD93B2422497F58E00245F35 /* Insta_RedesignUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD93B2342497F58E00245F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD93B2152497F58700245F35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD93B21C2497F58700245F35;
+			remoteInfo = "Insta Redesign";
+		};
+		AD93B23F2497F58E00245F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD93B2152497F58700245F35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD93B21C2497F58700245F35;
+			remoteInfo = "Insta Redesign";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD93B21D2497F58700245F35 /* Insta Redesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta Redesign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD93B2202497F58700245F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD93B2222497F58700245F35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD93B2242497F58700245F35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD93B2262497F58E00245F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD93B2292497F58E00245F35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD93B22C2497F58E00245F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD93B22E2497F58E00245F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD93B2332497F58E00245F35 /* Insta RedesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insta RedesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD93B2372497F58E00245F35 /* Insta_RedesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_RedesignTests.swift; sourceTree = "<group>"; };
+		AD93B2392497F58E00245F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD93B23E2497F58E00245F35 /* Insta RedesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insta RedesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD93B2422497F58E00245F35 /* Insta_RedesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_RedesignUITests.swift; sourceTree = "<group>"; };
+		AD93B2442497F58E00245F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD93B21A2497F58700245F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD93B2302497F58E00245F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD93B23B2497F58E00245F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD93B2142497F58700245F35 = {
+			isa = PBXGroup;
+			children = (
+				AD93B21F2497F58700245F35 /* Insta Redesign */,
+				AD93B2362497F58E00245F35 /* Insta RedesignTests */,
+				AD93B2412497F58E00245F35 /* Insta RedesignUITests */,
+				AD93B21E2497F58700245F35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD93B21E2497F58700245F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD93B21D2497F58700245F35 /* Insta Redesign.app */,
+				AD93B2332497F58E00245F35 /* Insta RedesignTests.xctest */,
+				AD93B23E2497F58E00245F35 /* Insta RedesignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD93B21F2497F58700245F35 /* Insta Redesign */ = {
+			isa = PBXGroup;
+			children = (
+				AD93B2202497F58700245F35 /* AppDelegate.swift */,
+				AD93B2222497F58700245F35 /* SceneDelegate.swift */,
+				AD93B2242497F58700245F35 /* ContentView.swift */,
+				AD93B2262497F58E00245F35 /* Assets.xcassets */,
+				AD93B22B2497F58E00245F35 /* LaunchScreen.storyboard */,
+				AD93B22E2497F58E00245F35 /* Info.plist */,
+				AD93B2282497F58E00245F35 /* Preview Content */,
+			);
+			path = "Insta Redesign";
+			sourceTree = "<group>";
+		};
+		AD93B2282497F58E00245F35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD93B2292497F58E00245F35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD93B2362497F58E00245F35 /* Insta RedesignTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD93B2372497F58E00245F35 /* Insta_RedesignTests.swift */,
+				AD93B2392497F58E00245F35 /* Info.plist */,
+			);
+			path = "Insta RedesignTests";
+			sourceTree = "<group>";
+		};
+		AD93B2412497F58E00245F35 /* Insta RedesignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD93B2422497F58E00245F35 /* Insta_RedesignUITests.swift */,
+				AD93B2442497F58E00245F35 /* Info.plist */,
+			);
+			path = "Insta RedesignUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD93B21C2497F58700245F35 /* Insta Redesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD93B2472497F58E00245F35 /* Build configuration list for PBXNativeTarget "Insta Redesign" */;
+			buildPhases = (
+				AD93B2192497F58700245F35 /* Sources */,
+				AD93B21A2497F58700245F35 /* Frameworks */,
+				AD93B21B2497F58700245F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Insta Redesign";
+			productName = "Insta Redesign";
+			productReference = AD93B21D2497F58700245F35 /* Insta Redesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD93B2322497F58E00245F35 /* Insta RedesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD93B24A2497F58E00245F35 /* Build configuration list for PBXNativeTarget "Insta RedesignTests" */;
+			buildPhases = (
+				AD93B22F2497F58E00245F35 /* Sources */,
+				AD93B2302497F58E00245F35 /* Frameworks */,
+				AD93B2312497F58E00245F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD93B2352497F58E00245F35 /* PBXTargetDependency */,
+			);
+			name = "Insta RedesignTests";
+			productName = "Insta RedesignTests";
+			productReference = AD93B2332497F58E00245F35 /* Insta RedesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD93B23D2497F58E00245F35 /* Insta RedesignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD93B24D2497F58E00245F35 /* Build configuration list for PBXNativeTarget "Insta RedesignUITests" */;
+			buildPhases = (
+				AD93B23A2497F58E00245F35 /* Sources */,
+				AD93B23B2497F58E00245F35 /* Frameworks */,
+				AD93B23C2497F58E00245F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD93B2402497F58E00245F35 /* PBXTargetDependency */,
+			);
+			name = "Insta RedesignUITests";
+			productName = "Insta RedesignUITests";
+			productReference = AD93B23E2497F58E00245F35 /* Insta RedesignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD93B2152497F58700245F35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Balaji;
+				TargetAttributes = {
+					AD93B21C2497F58700245F35 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					AD93B2322497F58E00245F35 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = AD93B21C2497F58700245F35;
+					};
+					AD93B23D2497F58E00245F35 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = AD93B21C2497F58700245F35;
+					};
+				};
+			};
+			buildConfigurationList = AD93B2182497F58700245F35 /* Build configuration list for PBXProject "Insta Redesign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD93B2142497F58700245F35;
+			productRefGroup = AD93B21E2497F58700245F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD93B21C2497F58700245F35 /* Insta Redesign */,
+				AD93B2322497F58E00245F35 /* Insta RedesignTests */,
+				AD93B23D2497F58E00245F35 /* Insta RedesignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD93B21B2497F58700245F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD93B22D2497F58E00245F35 /* LaunchScreen.storyboard in Resources */,
+				AD93B22A2497F58E00245F35 /* Preview Assets.xcassets in Resources */,
+				AD93B2272497F58E00245F35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD93B2312497F58E00245F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD93B23C2497F58E00245F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD93B2192497F58700245F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD93B2212497F58700245F35 /* AppDelegate.swift in Sources */,
+				AD93B2232497F58700245F35 /* SceneDelegate.swift in Sources */,
+				AD93B2252497F58700245F35 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD93B22F2497F58E00245F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD93B2382497F58E00245F35 /* Insta_RedesignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD93B23A2497F58E00245F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD93B2432497F58E00245F35 /* Insta_RedesignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD93B2352497F58E00245F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD93B21C2497F58700245F35 /* Insta Redesign */;
+			targetProxy = AD93B2342497F58E00245F35 /* PBXContainerItemProxy */;
+		};
+		AD93B2402497F58E00245F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD93B21C2497F58700245F35 /* Insta Redesign */;
+			targetProxy = AD93B23F2497F58E00245F35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD93B22B2497F58E00245F35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD93B22C2497F58E00245F35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD93B2452497F58E00245F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD93B2462497F58E00245F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD93B2482497F58E00245F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Insta Redesign/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Insta Redesign/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "muhammad-luthfi-farizqi.Insta-Redesign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD93B2492497F58E00245F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Insta Redesign/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Insta Redesign/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "muhammad-luthfi-farizqi.Insta-Redesign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD93B24B2497F58E00245F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Insta RedesignTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Insta-RedesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insta Redesign.app/Insta Redesign";
+			};
+			name = Debug;
+		};
+		AD93B24C2497F58E00245F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Insta RedesignTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Insta-RedesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insta Redesign.app/Insta Redesign";
+			};
+			name = Release;
+		};
+		AD93B24E2497F58E00245F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Insta RedesignUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Insta-RedesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Insta Redesign";
+			};
+			name = Debug;
+		};
+		AD93B24F2497F58E00245F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Insta RedesignUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Insta-RedesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Insta Redesign";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD93B2182497F58700245F35 /* Build configuration list for PBXProject "Insta Redesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD93B2452497F58E00245F35 /* Debug */,
+				AD93B2462497F58E00245F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD93B2472497F58E00245F35 /* Build configuration list for PBXNativeTarget "Insta Redesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD93B2482497F58E00245F35 /* Debug */,
+				AD93B2492497F58E00245F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD93B24A2497F58E00245F35 /* Build configuration list for PBXNativeTarget "Insta RedesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD93B24B2497F58E00245F35 /* Debug */,
+				AD93B24C2497F58E00245F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD93B24D2497F58E00245F35 /* Build configuration list for PBXNativeTarget "Insta RedesignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD93B24E2497F58E00245F35 /* Debug */,
+				AD93B24F2497F58E00245F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD93B2152497F58700245F35 /* Project object */;
+}
